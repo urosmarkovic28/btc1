@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-link{
+  transition: .3s ease !important;
+}
+.nav-link:hover{
+  color: #55c3c0 !important;
+  transform: scale(1.2);
+}
+.footerText{
+  color: white !important;
+  text-decoration: none;
+  transition: .3s ease !important;
+}
+.footerText:hover{
+  color: #55c3c0 !important;
+  
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-tiktok{
+  color: #ef3f54;
+  font-size: 20px;
+  transition: 1.5s ease;
+}
+.fa-facebook:hover,.fa-twitter:hover, .fa-instagram:hover, .fa-tiktok:hover{
+  color: #55c3c0;
+  transform: rotate(360deg);
+  
+}
+.btn-dager{
+  transition: .3s ease !important;
+  background-color: #ef3f54 !important;
+ border-radius: 30% !important;
+}
+.btn-danger:hover{
+  color: black;
+  background-color: #55c3c0 !important;
+  border: none;
+}
+.christamas{
+  margin-left: 450px;
+}
